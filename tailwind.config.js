@@ -7,8 +7,12 @@ module.exports = {
         "header-color": "#eceef3",
       },
       textColor: {
+        "hover-text": "#000000",
         "text-grey": "#7f7f7f",
       },
+      borderColor: {
+        "input-border": "#dedcdc",
+      }
     },
   },
   plugins: [],
