@@ -11,29 +11,29 @@
 
 <body>
     <header class="bg-header-color py-2">
-        <div class="flex items-center justify-between max-w-[1200px] mx-auto">
-            <div class=" text-[13px] font-normal">
-                <div class="flex items-center gap-2">
+        <div class="flex items-center justify-between max-w-[1200px] xl:px-0 px-5 mx-auto">
+            <div class="sm:block hidden lg:text-[13px] text-[10px] font-normal">
+                <div class="flex items-center lg:gap-2 gap-1">
                     <img src="assets/svg/location.svg" class="w-[15px]" alt="location">
                     <p>Москва, Большой Кисловский переулок, 5-7с1</p>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center lg:gap-2 gap-1">
                     <img src="assets/svg/mail.svg" class="w-[15px]" alt="mail">
                     <p>info@art-rings.ru</p>
                 </div>
             </div>
-            <div class="flex items-center gap-2">
+            <div class=" md:flex hidden items-center lg:gap-2 gap-1">
                 <img src="assets/svg/clock.svg" class="w-[20px]" alt="clock">
                 <div class="">
-                    <p class="text-[13px]">пн-пт 11:00-20:00</p>
-                    <p class="text-[13px]">сб, вс 11:00-17:00</p>
+                    <p class="lg:text-[13px] text-[10px]">пн-пт 11:00-20:00</p>
+                    <p class="lg:text-[13px] text-[10px]">сб, вс 11:00-17:00</p>
                 </div>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="items-center lg:gap-2 gap-1 md:flex hidden">
                 <img src="assets/svg/phone.svg" class="w-[15px]" alt="phone">
                 <div class="">
-                    <p class="text-[13px]">+7 (499) 940-87-77</p>
-                    <p class="text-[13px]">+7 (977) 841-23-40</p>
+                    <p class="lg:text-[13px] text-[10px]">+7 (499) 940-87-77</p>
+                    <p class="lg:text-[13px] text-[10px]">+7 (977) 841-23-40</p>
                 </div>
             </div>
             <div class="flex items-center justify-center gap-2">
@@ -41,12 +41,13 @@
                 <img src="assets/svg/vk.svg" class="cursor-pointer w-[35px]" alt="facebook">
                 <img src="assets/svg/phone_chat.svg" class="cursor-pointer w-[20px] mr-2" alt="facebook">
                 <img src="assets/svg/instagram.svg" class="cursor-pointer w-[20px]" alt="facebook">
-                <img src="assets/svg/telegram.svg"  class="cursor-pointer w-[35px]"="facebook">
+                <img src="assets/svg/telegram.svg"  class="cursor-pointer w-[35px]" alt="facebook">
             </div>
+            <img src="assets/svg/search.svg"  class=" md:hidden flex cursor-pointer w-[25px]" alt="search">
         </div>
     </header>
-    <nav class="">
-        <div class="flex justify-between py-3 max-w-[1200px] mx-auto">
+    <nav class="md:block hidden">
+        <div class="flex justify-between py-3 max-w-[1200px] xl:px-0 px-5 mx-auto">
             <div class="flex gap-5 text-text-grey">
                 <a href="#" class="hover:text-hover-text">Студия</a>
                 <a href="#" class="hover:text-hover-text">О нас</a>
