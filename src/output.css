@@ -685,6 +685,18 @@ video {
   width: 25px;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
