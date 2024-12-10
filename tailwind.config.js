@@ -6,6 +6,9 @@ module.exports = {
       backgroundColor:{
         "header-color": "#9EAFC2",
       },
+      textColor:{
+        "text-grey": "#7f7f7f",
+      }
     },
   },
   plugins: [],
