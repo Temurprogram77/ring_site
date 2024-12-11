@@ -1035,6 +1035,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1072,6 +1076,11 @@ video {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-text-grey:hover {
+  --tw-text-opacity: 1;
+  color: rgb(127 127 127 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px) {
