@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         "header-color": "#eceef3",
+        "img-color": "#fafafc",
       },
       textColor: {
         "hover-text": "#000000",

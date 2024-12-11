@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" type="image/x-icon" href="/assets/svg/favicon.svg">
     <link rel="stylesheet" href="src/output.css">
 </head>
@@ -37,13 +38,13 @@
                 </div>
             </div>
             <div class="flex items-center justify-center gap-2">
-                <img src="assets/svg/facebook.svg" class="cursor-pointer w-[35px]" alt="facebook">
-                <img src="assets/svg/vk.svg" class="cursor-pointer w-[35px]" alt="facebook">
-                <img src="assets/svg/phone_chat.svg" class="cursor-pointer w-[20px] mr-2" alt="facebook">
-                <img src="assets/svg/instagram.svg" class="cursor-pointer w-[20px]" alt="facebook">
-                <img src="assets/svg/telegram.svg"  class="cursor-pointer w-[35px]" alt="facebook">
+                <img src="assets/svg/facebook.svg" class="cursor-pointer" alt="facebook">
+                <img src="assets/svg/vk.svg" class="cursor-pointer" alt="facebook">
+                <img src="assets/svg/phone_chat.svg" class="cursor-pointer" alt="facebook">
+                <img src="assets/svg/instagram.svg" class="cursor-pointer" alt="facebook">
+                <img src="assets/svg/telegram.svg" class="cursor-pointer" alt="facebook">
             </div>
-            <img src="assets/svg/search.svg"  class=" md:hidden flex cursor-pointer w-[25px]" alt="search">
+            <img src="assets/svg/search.svg" class=" md:hidden flex cursor-pointer w-[25px]" alt="search">
         </div>
     </header>
     <nav class="md:block hidden">
@@ -62,18 +63,66 @@
         </div>
     </nav>
     <section>
-        <div class="text-center">
-            <h2 class="text-[35px] font-medium">ART-RINGS</h2>
+        <div class="text-center md:block hidden">
+            <h2 class="lg:text-[35px] text-[30px] font-medium">ART-RINGS</h2>
             <p class="text-[12px] font-medium">MOSCOW JEWELRY STUDIO</p>
         </div>
     </section>
     <section>
-        <div class="flex items-center mx-auto max-w-[1200px]">
-            <a href="#" class="w-[80px]">
-                <img src="assets/svg/logo.svg" alt="logo">
-            </a>
+        <div class="flex items-center justify-between my-10 mx-auto mx:px-0 px-5 max-w-[1200px]">
+            <div class="flex gap-6">
+                <a href="#" class="w-[80px] lg:block hidden">
+                    <img src="assets/svg/logo.svg" alt="logo">
+                </a>
+                <div class="flex">
+                    <img src="assets/svg/menu.svg" class="cursor-pointer" alt="menu">
+                </div>
+            </div>
+            <div class="text-center md:hidden block">
+                <h2 class="text-[22px] font-medium">ART-RINGS</h2>
+                <p class="text-[8px] font-medium">MOSCOW JEWELRY STUDIO</p>
+            </div>
+            <a href="#" class="lg:text-[16px] text-[12px] md:block hidden hover:text-text-grey duration-200">ОБРУЧАЛЬНЫЕ КОЛЬЦА</a>
+            <a href="#" class="lg:text-[16px] text-[12px] md:block hidden hover:text-text-grey duration-200">ПОМОЛВОЧНЫЕ КОЛЬЦА</a>
+            <a href="#" class="lg:text-[16px] text-[12px] md:block hidden hover:text-text-grey duration-200">СВАДЕБНЫЕ ДУЭТЫ</a>
+            <a href="#" class="lg:text-[16px] text-[12px] md:block hidden hover:text-text-grey duration-200">НА ЗАКАЗ</a>
+            <div class="flex items-center gap-3">
+                <img src="assets/svg/shopping_cart.svg" class="cursor-pointer" alt="shopping_cart">
+                <img src="assets/svg/heart.svg" class="cursor-pointer" alt="heart">
+            </div>
         </div>
     </section>
+    <section>
+        <h2 class="text-center font-normal text-[30px] uppercase">Oсобенные обручальные кольца</h2>
+    </section>
+    <section class="bg-img-color my-10">
+        <div class="max-w-[1200px] mx-auto">
+            <img src="assets/img/home_img.png" alt="home_img">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
 </body>
 
 </html>
