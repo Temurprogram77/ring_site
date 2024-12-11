@@ -1,12 +1,19 @@
-/ @type {import('tailwindcss').Config} */
+/ @type {import('tailwindcss').Config} */;
 module.exports = {
   content: ["./public//*.{html,js}", "index.html"],
   theme: {
     extend: {
-      backgroundColor:{
-        "header-color": "#9EAFC2",
+      backgroundColor: {
+        "header-color": "#eceef3",
       },
+      textColor: {
+        "hover-text": "#000000",
+        "text-grey": "#7f7f7f",
+      },
+      borderColor: {
+        "input-border": "#dedcdc",
+      }
     },
   },
   plugins: [],
-}
+};
