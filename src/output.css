@@ -941,6 +941,10 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1008,6 +1012,11 @@ video {
 .text-text-grey {
   --tw-text-opacity: 1;
   color: rgb(127 127 127 / var(--tw-text-opacity, 1));
+}
+
+.text-cyan-50 {
+  --tw-text-opacity: 1;
+  color: rgb(236 254 255 / var(--tw-text-opacity, 1));
 }
 
 .line-through {
