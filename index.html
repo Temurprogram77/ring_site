@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" type="image/x-icon" href="/assets/svg/favicon.svg">
     <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
@@ -62,12 +63,12 @@
             </div>
         </div>
     </nav>
-    <section>
+    <section class="menu hidden">
         <div class="fixed top-0 w-full h-full bg-white flex flex-col items-center justify-center">
             <div class="absolute w-[20px] top-10 left-40 cursor-pointer close">
                 <img src="assets/svg/close.svg" alt="close">
             </div>
-            <img src="assets/svg/logo.svg" class=" w-[120px]" alt="logo">
+            <img src="assets/svg/logo.svg" class="cursor-pointer w-[120px]" alt="logo">
             <a href="#" class="text-[25px]">Студия</a>
             <a href="#" class="text-[25px]">О нас</a>
             <a href="#" class="text-[25px]">Доставка и оплата</a>
@@ -88,7 +89,7 @@
                     <img src="assets/svg/logo.svg" alt="logo">
                 </a>
                 <div class="flex">
-                    <img src="assets/svg/menu.svg" class="cursor-pointer" alt="menu">
+                    <img src="assets/svg/menu.svg" class="menu_bar cursor-pointer" alt="menu">
                 </div>
             </div>
             <div class="text-center md:hidden block">
@@ -136,6 +137,7 @@
             },
         });
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
