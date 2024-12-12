@@ -6,6 +6,7 @@ module.exports = {
       backgroundColor: {
         "header-color": "#eceef3",
         "img-color": "#fafafc",
+        "modal-color": "#F8F9FD",
       },
       textColor: {
         "hover-text": "#000000",
@@ -13,7 +14,7 @@ module.exports = {
       },
       borderColor: {
         "input-border": "#dedcdc",
-      }
+      },
     },
   },
   plugins: [],
