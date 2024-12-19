@@ -3,5 +3,5 @@ let menu_bar = document.querySelector('.menu-bar');
 let menu = document.querySelector('.menu');
 
 menu_bar.addEventListener('click', ()=>{
-    menu.classList.add('hidden');
+    menu.classList.add('active');
 })
