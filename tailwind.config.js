@@ -13,6 +13,7 @@ module.exports = {
         "text-grey": "#7f7f7f",
       },
       borderColor: {
+        "line-color": "#9EAFC2",
         "input-border": "#dedcdc",
       },
     },
